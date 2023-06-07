@@ -3,17 +3,16 @@
 # Declare variables to be passed into your templates.
 
 application:
-  author: roushan
-  name: sampleapi #Aadhar Vault Manager
+  name: pfe2023
   type: api
 
 replicaCount: 1
 
 image:
-  repository: techparkacrhelmdemo.azurecr.io
+  repository: pfe2023.azurecr.io
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: "48"
 
 imagePullSecrets: []
 nameOverride: ""

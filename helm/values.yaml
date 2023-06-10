@@ -12,7 +12,7 @@ image:
   repository: pfe2023.azurecr.io
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "58"
+  tag: "62"
 
 imagePullSecrets: []
 nameOverride: ""

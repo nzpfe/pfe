@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-  metadata:
+metadata:
   name: {{ include "helm.fullname" . }}
   labels:
     {{- include "helm.labels" . | nindent 4 }}
